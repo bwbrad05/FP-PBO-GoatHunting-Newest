@@ -31,11 +31,17 @@ namespace GoatHunting
         private Label _killCountLabel;
         private int _killCount = 0;
 
+        private Button _backButton;
+
+        private static int _highestKillCount = 0;
+        public static int HighestKillCount => _highestKillCount;
+
         public GameForm()
         {
             InitializeComponent();
             InitializeLevel();
             InitializeKillCountLabel();
+            InitializeBackground();
         }
 
         private void InitializeComponent()
@@ -47,6 +53,19 @@ namespace GoatHunting
             this.BackColor = Color.LightGray;
             this.KeyPreview = true;
             this.ResumeLayout(false);
+        }
+
+        private void InitializeBackground()
+        {
+            // Set the background color of the form to green
+            this.BackColor = Color.Green;
+
+            // Ensure player and goats are in front of the background
+            _player.GetPictureBox().BringToFront();
+            foreach (var goat in _goats)
+            {
+                goat.GetPictureBox().BringToFront();
+            }
         }
 
         private void InitializeLevel()
@@ -130,7 +149,7 @@ namespace GoatHunting
                 var goat = new Goat(position, this);
                 goat.OnGoatSpawned += AddGoatToForm;
                 goat.OnPlayerDamaged += damage => _player.TakeDamage(damage);
-                goat.OnGoatKilled += HandleGoatDestroyed;
+                //goat.OnGoatKilled += HandleGoatDestroyed;
                 _goats.Add(goat);
                 this.Controls.Add(goat.GetPictureBox());
             }
@@ -182,6 +201,12 @@ namespace GoatHunting
         {
             gameOver = true;
             _animationTimer.Stop();
+            _goatSpawner.Dispose();
+
+            if(_killCount > _highestKillCount)
+            {
+                _highestKillCount = _killCount;
+            }
 
             // Clear existing controls
             this.Controls.Clear();
@@ -213,6 +238,22 @@ namespace GoatHunting
             };
             _restartButton.Click += RestartGame;
             this.Controls.Add(_restartButton);
+
+            _backButton = new Button
+            {
+                Text = "Back",
+                Font = new Font("Arial", 16),
+                Size = new Size(120, 40),
+                Location = new Point((this.ClientSize.Width - 120) / 2, this.ClientSize.Height / 2 + 60)// bawah restart button
+            };
+            _backButton.Click += BackButton_Click;
+            this.Controls.Add(_backButton);
+
+        }
+
+        private void BackButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
         private void RestartGame(object sender = null, EventArgs e = null)

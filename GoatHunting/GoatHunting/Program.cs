@@ -6,7 +6,7 @@ namespace GoatHunting
         static void Main()
         {
             ApplicationConfiguration.Initialize();
-            Application.Run(new GameForm());
+            Application.Run(new MainForm());
         }
     }
 }

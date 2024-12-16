@@ -143,8 +143,7 @@ namespace GoatHunting
         }
 
         public void Animate()
-        {
-            // Animate while walking
+        { 
             if (_isWalking)
             {
                 _currentFrame = (_currentFrame + 1) % TotalFrames;
