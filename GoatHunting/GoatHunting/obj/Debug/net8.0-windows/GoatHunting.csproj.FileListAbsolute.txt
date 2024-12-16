@@ -1,0 +1,17 @@
+C:\ITS\Semester 3\PBO\FP yang paling FP\GoatHunting\GoatHunting\obj\Debug\net8.0-windows\GoatHunting.Resource.resources
+C:\ITS\Semester 3\PBO\FP yang paling FP\GoatHunting\GoatHunting\obj\Debug\net8.0-windows\GoatHunting.csproj.GenerateResource.cache
+C:\ITS\Semester 3\PBO\FP yang paling FP\GoatHunting\GoatHunting\obj\Debug\net8.0-windows\GoatHunting.GeneratedMSBuildEditorConfig.editorconfig
+C:\ITS\Semester 3\PBO\FP yang paling FP\GoatHunting\GoatHunting\obj\Debug\net8.0-windows\GoatHunting.AssemblyInfoInputs.cache
+C:\ITS\Semester 3\PBO\FP yang paling FP\GoatHunting\GoatHunting\obj\Debug\net8.0-windows\GoatHunting.AssemblyInfo.cs
+C:\ITS\Semester 3\PBO\FP yang paling FP\GoatHunting\GoatHunting\obj\Debug\net8.0-windows\GoatHunting.csproj.CoreCompileInputs.cache
+C:\ITS\Semester 3\PBO\FP yang paling FP\GoatHunting\GoatHunting\bin\Debug\net8.0-windows\GoatHunting.exe
+C:\ITS\Semester 3\PBO\FP yang paling FP\GoatHunting\GoatHunting\bin\Debug\net8.0-windows\GoatHunting.deps.json
+C:\ITS\Semester 3\PBO\FP yang paling FP\GoatHunting\GoatHunting\bin\Debug\net8.0-windows\GoatHunting.runtimeconfig.json
+C:\ITS\Semester 3\PBO\FP yang paling FP\GoatHunting\GoatHunting\bin\Debug\net8.0-windows\GoatHunting.dll
+C:\ITS\Semester 3\PBO\FP yang paling FP\GoatHunting\GoatHunting\bin\Debug\net8.0-windows\GoatHunting.pdb
+C:\ITS\Semester 3\PBO\FP yang paling FP\GoatHunting\GoatHunting\obj\Debug\net8.0-windows\GoatHunting.dll
+C:\ITS\Semester 3\PBO\FP yang paling FP\GoatHunting\GoatHunting\obj\Debug\net8.0-windows\refint\GoatHunting.dll
+C:\ITS\Semester 3\PBO\FP yang paling FP\GoatHunting\GoatHunting\obj\Debug\net8.0-windows\GoatHunting.pdb
+C:\ITS\Semester 3\PBO\FP yang paling FP\GoatHunting\GoatHunting\obj\Debug\net8.0-windows\GoatHunting.genruntimeconfig.cache
+C:\ITS\Semester 3\PBO\FP yang paling FP\GoatHunting\GoatHunting\obj\Debug\net8.0-windows\ref\GoatHunting.dll
+C:\ITS\Semester 3\PBO\FP yang paling FP\GoatHunting\GoatHunting\obj\Debug\net8.0-windows\GoatHunting.GameForm.resources

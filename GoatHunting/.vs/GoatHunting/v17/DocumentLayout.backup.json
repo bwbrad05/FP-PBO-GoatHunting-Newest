@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ITS\\Semester 3\\PBO\\FP yang paling FP\\GoatHunting\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA126A0-6A9D-48E2-8191-B7705F5D12AE}|GoatHunting\\GoatHunting.csproj|c:\\its\\semester 3\\pbo\\fp yang paling fp\\goathunting\\goathunting\\goat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA126A0-6A9D-48E2-8191-B7705F5D12AE}|GoatHunting\\GoatHunting.csproj|solutionrelative:goathunting\\goat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA126A0-6A9D-48E2-8191-B7705F5D12AE}|GoatHunting\\GoatHunting.csproj|c:\\its\\semester 3\\pbo\\fp yang paling fp\\goathunting\\goathunting\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA126A0-6A9D-48E2-8191-B7705F5D12AE}|GoatHunting\\GoatHunting.csproj|solutionrelative:goathunting\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA126A0-6A9D-48E2-8191-B7705F5D12AE}|GoatHunting\\GoatHunting.csproj|c:\\its\\semester 3\\pbo\\fp yang paling fp\\goathunting\\goathunting\\goatspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA126A0-6A9D-48E2-8191-B7705F5D12AE}|GoatHunting\\GoatHunting.csproj|solutionrelative:goathunting\\goatspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA126A0-6A9D-48E2-8191-B7705F5D12AE}|GoatHunting\\GoatHunting.csproj|c:\\its\\semester 3\\pbo\\fp yang paling fp\\goathunting\\goathunting\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA126A0-6A9D-48E2-8191-B7705F5D12AE}|GoatHunting\\GoatHunting.csproj|solutionrelative:goathunting\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA126A0-6A9D-48E2-8191-B7705F5D12AE}|GoatHunting\\GoatHunting.csproj|c:\\its\\semester 3\\pbo\\fp yang paling fp\\goathunting\\goathunting\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA126A0-6A9D-48E2-8191-B7705F5D12AE}|GoatHunting\\GoatHunting.csproj|solutionrelative:goathunting\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA126A0-6A9D-48E2-8191-B7705F5D12AE}|GoatHunting\\GoatHunting.csproj|C:\\ITS\\Semester 3\\PBO\\FP yang paling FP\\GoatHunting\\goathunting\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4AA126A0-6A9D-48E2-8191-B7705F5D12AE}|GoatHunting\\GoatHunting.csproj|solutionrelative:goathunting\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA126A0-6A9D-48E2-8191-B7705F5D12AE}|GoatHunting\\GoatHunting.csproj|c:\\its\\semester 3\\pbo\\fp yang paling fp\\goathunting\\goathunting\\resource.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA126A0-6A9D-48E2-8191-B7705F5D12AE}|GoatHunting\\GoatHunting.csproj|solutionrelative:goathunting\\resource.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA126A0-6A9D-48E2-8191-B7705F5D12AE}|GoatHunting\\GoatHunting.csproj|c:\\its\\semester 3\\pbo\\fp yang paling fp\\goathunting\\goathunting\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA126A0-6A9D-48E2-8191-B7705F5D12AE}|GoatHunting\\GoatHunting.csproj|solutionrelative:goathunting\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameForm.cs",
+              "DocumentMoniker": "C:\\ITS\\Semester 3\\PBO\\FP yang paling FP\\GoatHunting\\GoatHunting\\GameForm.cs",
+              "RelativeDocumentMoniker": "GoatHunting\\GameForm.cs",
+              "ToolTip": "C:\\ITS\\Semester 3\\PBO\\FP yang paling FP\\GoatHunting\\GoatHunting\\GameForm.cs",
+              "RelativeToolTip": "GoatHunting\\GameForm.cs",
+              "ViewState": "AgIAANoAAAAAAAAAAADgv+0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T14:18:49.999Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GoatSpawner.cs",
+              "DocumentMoniker": "C:\\ITS\\Semester 3\\PBO\\FP yang paling FP\\GoatHunting\\GoatHunting\\GoatSpawner.cs",
+              "RelativeDocumentMoniker": "GoatHunting\\GoatSpawner.cs",
+              "ToolTip": "C:\\ITS\\Semester 3\\PBO\\FP yang paling FP\\GoatHunting\\GoatHunting\\GoatSpawner.cs",
+              "RelativeToolTip": "GoatHunting\\GoatSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T11:10:34.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Resource.Designer.cs",
+              "DocumentMoniker": "C:\\ITS\\Semester 3\\PBO\\FP yang paling FP\\GoatHunting\\GoatHunting\\Resource.Designer.cs",
+              "RelativeDocumentMoniker": "GoatHunting\\Resource.Designer.cs",
+              "ToolTip": "C:\\ITS\\Semester 3\\PBO\\FP yang paling FP\\GoatHunting\\GoatHunting\\Resource.Designer.cs",
+              "RelativeToolTip": "GoatHunting\\Resource.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T12:53:36.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ITS\\Semester 3\\PBO\\FP yang paling FP\\GoatHunting\\GoatHunting\\Program.cs",
+              "RelativeDocumentMoniker": "GoatHunting\\Program.cs",
+              "ToolTip": "C:\\ITS\\Semester 3\\PBO\\FP yang paling FP\\GoatHunting\\GoatHunting\\Program.cs",
+              "RelativeToolTip": "GoatHunting\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T14:19:14.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\ITS\\Semester 3\\PBO\\FP yang paling FP\\GoatHunting\\GoatHunting\\Player.cs",
+              "RelativeDocumentMoniker": "GoatHunting\\Player.cs",
+              "ToolTip": "C:\\ITS\\Semester 3\\PBO\\FP yang paling FP\\GoatHunting\\GoatHunting\\Player.cs",
+              "RelativeToolTip": "GoatHunting\\Player.cs",
+              "ViewState": "AgIAANIAAAAAAAAAAAAowOQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T14:18:08.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Goat.cs",
+              "DocumentMoniker": "C:\\ITS\\Semester 3\\PBO\\FP yang paling FP\\GoatHunting\\GoatHunting\\Goat.cs",
+              "RelativeDocumentMoniker": "GoatHunting\\Goat.cs",
+              "ToolTip": "C:\\ITS\\Semester 3\\PBO\\FP yang paling FP\\GoatHunting\\GoatHunting\\Goat.cs",
+              "RelativeToolTip": "GoatHunting\\Goat.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAADgv1wAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T14:17:59.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\ITS\\Semester 3\\PBO\\FP yang paling FP\\GoatHunting\\GoatHunting\\Bullet.cs",
+              "RelativeDocumentMoniker": "GoatHunting\\Bullet.cs",
+              "ToolTip": "C:\\ITS\\Semester 3\\PBO\\FP yang paling FP\\GoatHunting\\GoatHunting\\Bullet.cs",
+              "RelativeToolTip": "GoatHunting\\Bullet.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAkwFEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T14:17:45.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameForm.cs [Design]",
+              "DocumentMoniker": "C:\\ITS\\Semester 3\\PBO\\FP yang paling FP\\GoatHunting\\GoatHunting\\GameForm.cs",
+              "RelativeDocumentMoniker": "GoatHunting\\GameForm.cs",
+              "ToolTip": "C:\\ITS\\Semester 3\\PBO\\FP yang paling FP\\GoatHunting\\GoatHunting\\GameForm.cs [Design]",
+              "RelativeToolTip": "GoatHunting\\GameForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T14:17:01.768Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
