@@ -13,7 +13,8 @@ namespace GoatHunting
 
         public HighScoreForm(int highestKillCount)
         {
-            this.highestKillCount = highestKillCount;
+            //this.highestKillCount = highestKillCount;
+            if(highestKillCount < HighScoreManager.LoadHighScore()) this.highestKillCount = HighScoreManager.LoadHighScore();
             InitializeForm();
             InitializeControls();
         }
@@ -57,7 +58,7 @@ namespace GoatHunting
             };
 
             // Display the highest kill count
-            highScoreList.Items.Add($"Highest Kill Count: {highestKillCount}");
+            highScoreList.Items.Add($"Highest Kill Count: {this.highestKillCount}");
 
             this.Controls.Add(highScoreList);
 

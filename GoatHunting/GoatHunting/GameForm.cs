@@ -13,6 +13,7 @@ namespace GoatHunting
         private const int AnimationInterval = 16;
         private const int MaxHealth = 100; // Max health of the player
 
+
         private Player _player;
         private List<Goat> _goats = new List<Goat>();
         private GoatSpawner _goatSpawner;
@@ -203,9 +204,16 @@ namespace GoatHunting
             _animationTimer.Stop();
             _goatSpawner.Dispose();
 
-            if(_killCount > _highestKillCount)
+            //if (_killCount > _highestKillCount)
+            //{
+            //    _highestKillCount = _killCount;
+            //}
+
+            int currentHighScore = HighScoreManager.LoadHighScore();
+
+            if (_killCount > currentHighScore)
             {
-                _highestKillCount = _killCount;
+                HighScoreManager.SaveHighScore(_killCount);
             }
 
             // Clear existing controls
@@ -220,10 +228,24 @@ namespace GoatHunting
                 AutoSize = true,
                 Location = new Point(
                     (this.ClientSize.Width - TextRenderer.MeasureText("GAME OVER", new Font("Arial", 36, FontStyle.Bold)).Width) / 2,
-                    this.ClientSize.Height / 2 - 100
+                    this.ClientSize.Height / 2 - 150
                 )
             };
             this.Controls.Add(_gameOverLabel);
+
+            // Create kill count label
+            var killCountLabel = new Label
+            {
+                Text = $"Total Goats Killed: {_killCount}",
+                Font = new Font("Arial", 20, FontStyle.Regular),
+                ForeColor = Color.White,
+                AutoSize = true,
+                Location = new Point(
+                    (this.ClientSize.Width - TextRenderer.MeasureText($"Total Goats Killed: {_killCount}", new Font("Arial", 20, FontStyle.Regular)).Width) / 2,
+                    this.ClientSize.Height / 2
+                )
+            };
+            this.Controls.Add(killCountLabel);
 
             // Create restart button
             _restartButton = new Button
@@ -233,23 +255,24 @@ namespace GoatHunting
                 Size = new Size(200, 50),
                 Location = new Point(
                     (this.ClientSize.Width - 200) / 2,
-                    this.ClientSize.Height / 2
+                    this.ClientSize.Height / 2 + 100
                 )
             };
             _restartButton.Click += RestartGame;
             this.Controls.Add(_restartButton);
 
+            // Create exit button
             _backButton = new Button
             {
-                Text = "Back",
+                Text = "Exit",
                 Font = new Font("Arial", 16),
                 Size = new Size(120, 40),
-                Location = new Point((this.ClientSize.Width - 120) / 2, this.ClientSize.Height / 2 + 60)// bawah restart button
+                Location = new Point((this.ClientSize.Width - 120) / 2, this.ClientSize.Height / 2 + 160)
             };
             _backButton.Click += BackButton_Click;
             this.Controls.Add(_backButton);
-
         }
+
 
         private void BackButton_Click(object sender, EventArgs e)
         {
@@ -373,5 +396,6 @@ namespace GoatHunting
             // Increment the kill count
             IncrementKillCount();
         }
+
     }
 }
